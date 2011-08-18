@@ -1,0 +1,40 @@
+\documentclass{article}
+
+\usepackage {amsmath}
+\usepackage {setspace}
+\usepackage [pdftex]{graphicx}
+\usepackage[sort&compress]{achemso}
+\usepackage{lineno}
+
+% For typesetting roman numerals
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+% some formatting tags
+\oddsidemargin  0.0in
+\evensidemargin 0.0in
+\textwidth      6.5in
+
+%\title{Temperature Effects on Surface Sulfur Dioxide}
+%\author{Eric S. Shamay \and Geraldine L. Richmond}
+
+\begin{document}
+
+
+\newcommand{\ang}{\,$\textrm{\AA}$}
+\newcommand{\angs}{\ang}
+\newcommand{\wat}{H$_2$O}
+
+%\maketitle
+
+%\onehalfspacing
+\linenumbers 
+\doublespacing
+
+\include{ComputationalDetails}
+
+\bibliography{succinic-study}
+
+\end{document}

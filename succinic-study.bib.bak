@@ -1,0 +1,413 @@
+% This file was created with JabRef 2.6.
+% Encoding: ISO8859_1
+
+@ARTICLE{Caldwell1995,
+  author = {Caldwell, J. W. and Kollman, P. A.},
+  title = {Structure and Properties of Neat Liquids Using Nonadditive Molecular-dynamics
+	- Water, Methanol, and N-methylacetamide},
+  journal = {Journal of Physical Chemistry},
+  year = {1995},
+  volume = {99},
+  pages = {6208--6219},
+  number = {16},
+  month = apr,
+  SN = {0022-3654},
+  TC = {293},
+  UT = {WOS:A1995QU82800067},
+  Z9 = {293},
+  abstract = {We present the first nonadditive molecular dynamics simulation of
+	organic liquids, studying the structure and energetics of methanol
+	and N-methylacetamide. Beginning with an additive potential that
+	reproduces the structure and energetics of these liquids quite well,
+	we have shown that one can simply reduce the atomic charges by a
+	scale factor in the range of 0.88-0.90 and add isotropic atomic polarizabilities
+	to create nonadditive models that also quite accurately reproduce
+	the structures and energies of these liquids. Thus, we have a clear
+	pathway for the general inclusion of nonadditive effects for organic
+	and biological molecules.},
+  doi = {10.1021/j100016a067},
+  owner = {eric},
+  timestamp = {2011.08.18}
+}
+
+@ARTICLE{Dang1998,
+  author = {Dang, LX},
+  title = {Importance of polarization effects in modeling the hydrogen bond
+	in water using classical molecular dynamics techniques},
+  journal = {Journal of Physical Chemistry B},
+  year = {1998},
+  volume = {102},
+  pages = {620-624},
+  number = {3},
+  month = {JAN 15},
+  abstract = {The importance of polarization effects in the hydrogen-bonding structures
+	of water is evaluated using classical molecular dynamics techniques
+	with a polarizable potential model {[}Dang, L. X.; Chang, T.-M. J.
+	Chem. Phys. 1997, 106, 8149]. The computed water monomer dipole moment
+	in water clusters is significantly enhanced because of induction
+	effects created by other water molecules. In particular, the magnitude
+	of polarization effects reported recently by high-level ab initio
+	calculations {[}Gregory, J. K.; Clary, D. C.; Liu, K.: Brown, M.
+	G.; Saykally, R. J. Science 1997, 275, 814] is well-reproduced in
+	our simulations. The structure of liquid water at ambient and supercritical
+	conditions is investigated. The evolution of the hydrogen-bonding
+	peak in g(OH) is in good agreement with recent data obtained by neutron
+	diffraction with isotopic substitution experiments (NDIS) {[}Postorino,
+	P.; Tromp, RH.; Ricci, M. A.; Soper, A. K.; Neilson, G. W. Nature
+	1993, 366, 668]. This behavior can be attributed to the variability
+	of water dipole moments in different environments, At conditions
+	near critical temperature, in contrast with the interpretation of
+	the NDIS data, the data from our simulations indicated that a considerable
+	degree of hydrogen bonding remains at this state. This result is
+	in good agreement with very recent proton NMR chemical shift measurements.},
+  issn = {1089-5647},
+  owner = {eric},
+  timestamp = {2009.03.17},
+  unique-id = {ISI:000071802700020}
+}
+
+@ARTICLE{Dang1992,
+  author = {Dang, L. X.},
+  title = {The Nonadditive Intermolecular Potential For Water Revised},
+  journal = {Journal of Chemical Physics},
+  year = {1992},
+  volume = {97},
+  pages = {2659--2660},
+  number = {4},
+  month = aug,
+  SN = {0021-9606},
+  TC = {201},
+  UT = {WOS:A1992JJ41100052},
+  Z9 = {201},
+  doi = {10.1063/1.463054},
+  owner = {eric},
+  timestamp = {2011.08.18}
+}
+
+@ARTICLE{Dupradeau2010,
+  author = {Dupradeau, Francois-Yves and Pigache, Adrien and Zaffran, Thomas
+	and Savineau, Corentin and Lelong, Rodolphe and Grivel, Nicolas and
+	Lelong, Dimitri and Rosanski, Wilfried and Cieplak, Piotr},
+  title = {The R.ED. tools: advances in RESP and ESP charge derivation and force
+	field library building},
+  journal = {Physical Chemistry Chemical Physics},
+  year = {2010},
+  volume = {12},
+  pages = {7821--7839},
+  number = {28},
+  SN = {1463-9076},
+  TC = {11},
+  UT = {WOS:000279627300012},
+  Z9 = {11},
+  abstract = {Deriving atomic charges and building a force field library for a new
+	molecule are key steps when developing a force field required for
+	conducting structural and energy-based analysis using molecular mechanics.
+	Derivation of popular RESP charges for a set of residues is a complex
+	and error prone procedure because it depends on numerous input parameters.
+	To overcome these problems, the R. E. D. Tools (RESP and ESP charge
+	Derive, http://q4md-forcefieldtools.org/RED/) have been developed
+	to perform charge derivation in an automatic and straightforward
+	way. The R.E.D. program handles chemical elements up to bromine in
+	the periodic table. It interfaces different quantum mechanical programs
+	employed for geometry optimization and computing molecular electrostatic
+	potential(s), and performs charge fitting using the RESP program.
+	By de. ning tight optimization criteria and by controlling the molecular
+	orientation of each optimized geometry, charge values are reproduced
+	at any computer platform with an accuracy of 0.0001 e. The charges
+	can be fitted using multiple conformations, making them suitable
+	for molecular dynamics simulations. R.E.D. allows also for de. ning
+	charge constraints during multiple molecule charge fitting, which
+	are used to derive charges for molecular fragments. Finally, R.E.D.
+	incorporates charges into a force field library, readily usable in
+	molecular dynamics computer packages. For complex cases, such as
+	a set of homologous molecules belonging to a common family, an entire
+	force field topology database is generated. Currently, the atomic
+	charges and force field libraries have been developed for more than
+	fifty model systems and stored in the RESP ESP charge DDataBase.
+	Selected results related to non-polarizable charge models are presented
+	and discussed.},
+  doi = {10.1039/c0cp00111b},
+  owner = {eric},
+  timestamp = {2011.08.18}
+}
+
+@ARTICLE{Essmann1995,
+  author = {Essmann, U. and Perera, L. and Berkowitz, M. L. and Darden, T. and
+	Lee, H. and Pedersen, L. G.},
+  title = {A Smooth Particle Mesh Ewald Method},
+  journal = {Journal of Chemical Physics},
+  year = {1995},
+  volume = {103},
+  pages = {8577--8593},
+  number = {19},
+  month = nov,
+  SN = {0021-9606},
+  TC = {3379},
+  UT = {WOS:A1995TE36400026},
+  Z9 = {3407},
+  abstract = {The previously developed particle mesh Ewald method is reformulated
+	in terms of efficient B-spline interpolation of the structure factors.
+	This reformulation allows a natural extension of the method to potentials
+	of the form 1/r(p) with p greater than or equal to 1. Furthermore,
+	efficient calculation of the virial tensor follows. Use of B-splines
+	in place of Lagrange interpolation leads to analytic gradients as
+	well as a significant improvement in the accuracy. We demonstrate
+	that arbitrary accuracy can be achieved, independent of system size
+	N, at a cost that scales as N log(N). For biomolecular systems with
+	many thousands of atoms this method permits the use of Ewald summation
+	at a computational cost comparable to that of a simple truncation
+	method of 10 angstroms or less.},
+  doi = {10.1063/1.470117},
+  owner = {eric},
+  timestamp = {2011.08.18}
+}
+
+@ARTICLE{Martinez2003,
+  author = {Martinez, J. M. and Martinez, L.},
+  title = {Packing optimization for automated generation of complex system's
+	initial configurations for molecular dynamics and docking},
+  journal = {Journal of Computational Chemistry},
+  year = {2003},
+  volume = {24},
+  pages = {819--825},
+  number = {7},
+  month = may,
+  SN = {0192-8651},
+  TC = {85},
+  UT = {WOS:000182499000003},
+  Z9 = {85},
+  abstract = {Molecular Dynamics is a powerful methodology for the comprehension
+	at molecular level of many chemical and biochemical systems. The
+	theories and techniques developed for structural and thermodynamic
+	analyses are well established, and many software packages are available.
+	However, designing starting configurations for dynamics can be cumbersome.
+	Easily generated regular lattices can be used when simple liquids
+	or mixtures are studied. However, for complex mixtures, polymer solutions
+	or solid adsorbed liquids (for example) this approach is inefficient,
+	and it turns out to be very hard to obtain an adequate coordinate
+	file. In this article, the problem of obtaining an adequate initial
+	configuration is treated as a "packing" problem and solved by an
+	optimization procedure. The initial configuration is chosen in such
+	a way that the minimum distance between atoms of different molecules
+	is greater than a fixed tolerance. The optimization uses a well-known
+	algorithm for box-constrained minimization. Applications are given
+	for biomolecule solvation, many-component mixtures, and interfaces.
+	This approach can reduce the work of designing starting configurations
+	from days or weeks to few minutes or hours, in an automated fashion.
+	Packing optimization is also shown to be a powerful methodology for
+	space search in docking of small ligands to proteins. This is demonstrated
+	by docking of the thyroid hormone to its nuclear receptor. (C) 2003
+	Wiley Periodicals, Inc.},
+  doi = {10.1002/jcc.10216},
+  owner = {eric},
+  timestamp = {2011.08.18}
+}
+
+@ARTICLE{Martinez2009,
+  author = {Martinez, L. and Andrade, R. and Birgin, E. G. and Martinez, J. M.},
+  title = {PACKMOL: A Package for Building Initial Configurations for Molecular
+	Dynamics Simulations},
+  journal = {Journal of Computational Chemistry},
+  year = {2009},
+  volume = {30},
+  pages = {2157--2164},
+  number = {13},
+  month = oct,
+  SN = {0192-8651},
+  TC = {33},
+  UT = {WOS:000269095700020},
+  Z9 = {33},
+  abstract = {Adequate initial configurations for molecular dynamics simulations
+	consist of arrangements of molecules distributed in space in such
+	a way to approximately represent the system's overall structure.
+	In order that the simulations are not disrupted by large van der
+	Waals repulsive interactions, atoms from different molecules Must
+	keep safe pairwise distances. Obtaining Such a molecular arrangement
+	can be considered it packing problem: Each type molecule must satisfy
+	spatial constraints related to the geometry of the system, and the
+	distance between atoms of different molecules Must be greater than
+	some specified tolerance. We have developed a code able to pack millions
+	of atoms. grouped in arbitrarily complex molecules, inside a variety
+	of three-dimensional regions. The regions may be intersections of
+	spheres, ellipses, cylinders, planes, or boxes. The user must provide
+	only the structure of one molecule of each type and the geometrical
+	constraints that each type of molecule must satisfy. Building complex
+	mixtures, interfaces, solvating biomolecules in water, other solvents,
+	or mixtures of solvents, is straight forward. In addition. different
+	atoms belonging to the same molecule may also be restricted to different
+	spatial regions, in Such a way that more ordered molecular arrangements
+	call be built, as micelles. lipid double-layers, etc. The packing
+	time for state-of-the-art molecular dynamics systems varies front
+	a few seconds to a few Minutes in a personal Computer. The input
+	files are simple and Currently compatible with PDB, Tinker, Molden,
+	or Moldy coordinate files. The package is distributed as free software
+	and call be downloaded front http://www.ime.unicamp.br/similar to
+	martinez/packmol/. (C) 2009 Wiley Periodicals. Inc. J Comput Chem
+	30: 2157-2164, 2009},
+  doi = {10.1002/jcc.21224},
+  owner = {eric},
+  timestamp = {2011.08.18}
+}
+
+@ARTICLE{Pigache2004,
+  author = {Pigache, A. and Cieplak, P. and Dupradeau, F. Y.},
+  title = {Automatic and highly reproducible RESP and ESP charge derivation:
+	Application to the development of programs RED and X RED.},
+  journal = {Abstracts of Papers of the American Chemical Society},
+  year = {2004},
+  volume = {227},
+  pages = {Amer Chem Soc},
+  month = mar,
+  CL = {Anaheim, CA},
+  CT = {227th National Meeting of the American-Chemical Society},
+  CY = {MAR 28-APR 01, 2004},
+  PN = {Part 1},
+  SN = {0065-7727},
+  TC = {4},
+  UT = {WOS:000223655603348},
+  Z9 = {4},
+  owner = {eric},
+  timestamp = {2011.08.18}
+}
+
+@ARTICLE{Ryckaert1977,
+  author = {Ryckaert, J. P. and Ciccotti, G. and Berendsen, H. J. C.},
+  title = {Numerical-integration of Cartesian Equations of Motion of A System
+	With Constraints - Molecular-dynamics of N-alkanes},
+  journal = {Journal of Computational Physics},
+  year = {1977},
+  volume = {23},
+  pages = {327--341},
+  number = {3},
+  SN = {0021-9991},
+  TC = {6562},
+  UT = {WOS:A1977CZ25300007},
+  Z9 = {6586},
+  doi = {10.1016/0021-9991(77)90098-5},
+  owner = {eric},
+  timestamp = {2011.08.18}
+}
+
+@ARTICLE{Schmidt1993,
+  author = {Schmidt, M. W. and Baldridge, K. K. and Boatz, J. A. and Elbert,
+	S. T. and Gordon, M. S. and Jensen, J. H. and Koseki, S. and Matsunaga,
+	N. and Nguyen, K. A. and Su, S. J. and Windus, T. L. and Dupuis,
+	M. and Montgomery, J. A.},
+  title = {General Atomic and Molecular Electronic-structure System},
+  journal = {Journal of Computational Chemistry},
+  year = {1993},
+  volume = {14},
+  pages = {1347--1363},
+  number = {11},
+  month = nov,
+  SN = {0192-8651},
+  TC = {8823},
+  UT = {WOS:A1993MC64600011},
+  Z9 = {8854},
+  __markedentry = {[eric]},
+  abstract = {A description of the ab initio quantum chemistry package GAMESS is
+	presented. Chemical systems containing atoms through radon can be
+	treated with wave functions ranging from the simplest closed-shell
+	case up to a general MCSCF case, permitting calculations at the necessary
+	level of sophistication. Emphasis is given to novel features of the
+	program. The parallelization strategy used in the RHF, ROHF, UHF,
+	and GVB sections of the program is described, and detailed speedup
+	results are given. Parallel calculations can be run on ordinary workstations
+	as well as dedicated parallel machines. (C) 1993 by John Wiley &
+	Sons, Inc.},
+  doi = {10.1002/jcc.540141112},
+  owner = {eric},
+  timestamp = {2011.08.18}
+}
+
+@ARTICLE{Wang2004,
+  author = {Wang, J. M. and Wolf, R. M. and Caldwell, J. W. and Kollman, P. A.
+	and Case, D. A.},
+  title = {Development and testing of a general amber force field},
+  journal = {Journal of Computational Chemistry},
+  year = {2004},
+  volume = {25},
+  pages = {1157--1174},
+  number = {9},
+  month = jul,
+  SN = {0192-8651},
+  TC = {1089},
+  UT = {WOS:000221624200007},
+  Z9 = {1096},
+  abstract = {We describe here a general Amber force field (GAFF) for organic molecules.
+	GAFF is designed to be compatible with existing Amber force fields
+	for proteins and nucleic acids, and has parameters for most organic
+	and pharmaceutical molecules that are composed of H, C, N, O, S,
+	P, and halogens. It uses a simple functional form and a limited number
+	of atom types, but incorporates both empirical and heuristic models
+	to estimate force constants and partial atomic charges. The performance
+	of GAFF in test cases is encouraging. In test I, 74 crystallographic
+	structures were compared to GAFF minimized structures, with a root-mean-square
+	displacement of 0.26 Angstrom, which is comparable to that of the
+	Tripos 5.2 force field (0.25 Angstrom) and better than those of MMFF
+	94 and CHARMm (0.47 and 0.44 Angstrom, respectively). In test II,
+	gas phase minimizations were performed on 22 nucleic acid base pairs,
+	and the minimized structures and intermolecular energies were compared
+	to MP2/6-31G* results. The RMS of displacements and relative energies
+	were 0.25 A and 1.2 kcal/mol, respectively. These data are comparable
+	to results from Parm99/RESP (0.16 Angstrom and 1.18 kcal/mol. respectively),
+	which were parameterized to these base pairs. Test III looked at
+	the relative energies of 71 conformational pairs that were used in
+	development of the Parm99 force field. The RMS error in relative
+	energies (compared to experiment) is about 0.5 kcal/mol. GAFF can
+	be applied to wide range of molecules in an automatic fashion. making
+	it suitable for rational drug design and database searching. (C)
+	2004 Wiley Periodicals, Inc.},
+  doi = {10.1002/jcc.20035},
+  owner = {eric},
+  timestamp = {2011.08.18}
+}
+
+@ARTICLE{Wilson1991,
+  author = {Wilson, M. A. and Pohorille, A.},
+  title = {Interaction of Monovalent Ions With the Water Liquid Vapor Interface
+	- A Molecular-dynamics Study},
+  journal = {Journal of Chemical Physics},
+  year = {1991},
+  volume = {95},
+  pages = {6005--6013},
+  number = {8},
+  month = oct,
+  SN = {0021-9606},
+  TC = {106},
+  UT = {WOS:A1991GJ59200051},
+  Z9 = {106},
+  abstract = {Results of molecular dynamics studies on the ions Na+,F-, and Cl-
+	near the water liquid-vapor interface are reported.  The free energies
+	required to move the ions to the interface are presented and shown
+	to depend on the sign of the ionic charge, and not the size of the
+	ion.  F- and Cl- can approach to within 2 molecular layers of the
+	interface without incurring a significant change in free energy,
+	while it costs about 2.5 kcal/mole to move Na+ this same distance.
+	 The free energy differences between the cation and the anions arise
+	from the interaction of the ions with the water molecules in the
+	interfacial region.  These water molecules are oriented with a slight
+	preference for their molecular dipoles to point toward the liquid.
+	 Thus, the anion approaching the interface disrupt the water structures
+	less than does the cation.  The calculated free energy curves are
+	compared with predictions of simple dielectric models.  It is shown
+	that these models do not provide a good description of ions at the
+	water surface.  The ions are found to retain their solvation shells
+	at the interface.  The anions also retain part of their second solvation
+	shells, while Na+ does not.  As a result, a larger bulge in the water
+	surface is observed above the anions than above Na+.  The lateral
+	mobilities of the ions increase at the interface, in qualitative
+	agreement with predictions of hydrodynamic models.},
+  doi = {10.1063/1.461592},
+  owner = {eric},
+  timestamp = {2011.08.18}
+}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+
