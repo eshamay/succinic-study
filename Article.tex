@@ -5,6 +5,7 @@
 \usepackage [pdftex]{graphicx}
 \usepackage[sort&compress]{achemso}
 \usepackage{lineno}
+\usepackage{textcomp}
 
 % For typesetting roman numerals
 \makeatletter
@@ -12,10 +13,13 @@
 \newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
 \makeatother
 
+\usepackage[
+top    = 1.0in,
+bottom = 1.0in]{geometry}
 % some formatting tags
-\oddsidemargin  0.0in
-\evensidemargin 0.0in
-\textwidth      6.5in
+%\oddsidemargin  0.0in
+%\evensidemargin 0.0in
+%\textwidth      6.5in
 
 %\title{Temperature Effects on Surface Sulfur Dioxide}
 %\author{Eric S. Shamay \and Geraldine L. Richmond}
